@@ -1,0 +1,59 @@
+.popup{
+    width: 1100px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    margin-left: calc(50% - 225px);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 0 40px;
+    position: relative;
+    box-shadow: 1px 1px 20px black;
+}
+.popup i#close{
+    position: absolute;
+    right: 30px;
+    top: 27px;
+    font-size: 25px;
+}
+.popup__img{
+    width: 25%;
+}
+.popup img{
+    width: 330px;
+    height: auto;
+    border-radius: 7px;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+.popup__information{
+    width: 73%;
+}
+.popup__information h3{
+    font-size: 40px;
+}
+.popup__information span{
+    font-size: 20px;
+}
+.popup__information p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.popup__information button{
+    margin-top: 30px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    background: orange;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.popup__information button i {
+    margin-right: 15px;
+}
+
+
